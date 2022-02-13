@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+
+  mysql:
+    image: mysql:8
+    command: --authentication-policy=mysql_native_password
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=local_mysql
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+
+  postgresql:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=local_postgresql
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+
+  mssql:
+    image: 'mcr.microsoft.com/mssql/server'
+    ports:
+      - '1433:1433'
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=administrator123!
