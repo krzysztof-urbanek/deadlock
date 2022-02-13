@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 
 
 @EnableJpaRepositories(
-    basePackages = ["db.transaction.deadlock.repository.mysql"],
+    basePackages = ["db.transaction.deadlock.dbspecific.mysql"],
     entityManagerFactoryRef = "mysqlEntityManagerFactory",
     transactionManagerRef = "mysqlJpaTransactionManager",
 )
@@ -14,7 +14,7 @@ class MysqlJpaRepositoriesConfig
 
 
 @EnableJpaRepositories(
-    basePackages = ["db.transaction.deadlock.repository.postgresql"],
+    basePackages = ["db.transaction.deadlock.dbspecific.postgresql"],
     entityManagerFactoryRef = "postgresqlEntityManagerFactory",
     transactionManagerRef = "postgresqlJpaTransactionManager",
 )
@@ -23,7 +23,7 @@ class PostgresqlJpaRepositoriesConfig
 
 
 @EnableJpaRepositories(
-    basePackages = ["db.transaction.deadlock.repository.mssql"],
+    basePackages = ["db.transaction.deadlock.dbspecific.mssql"],
     entityManagerFactoryRef = "mssqlEntityManagerFactory",
     transactionManagerRef = "mssqlJpaTransactionManager",
 )
