@@ -13,8 +13,9 @@ class PostgresqlNbaPlayerRepositoryV0(
 ) {
     private val log = logger {}
 
-    fun findYoungestPlayer() =
-        postgresqlNbaPlayerJpaRepository.findByOrderByBirthdateDesc(PageRequest.of(0, 1)).firstOrNull()
+    fun findYoungestPlayer() = postgresqlNbaPlayerJpaRepository
+        .findByOrderByBirthdateDesc(PageRequest.of(0, 1))
+        .firstOrNull()
 
     fun save(nbaPlayer: NbaPlayer) {
         //To increase the likelihood of potential deadlock we add delay and flush before the update.

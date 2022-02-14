@@ -10,11 +10,9 @@ import javax.persistence.LockModeType
 
 interface PostgresqlNbaPlayerJpaRepositoryV4: JpaRepository<NbaPlayer, Long> {
 
-    @Transactional("postgresqlJpaTransactionManager")
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
-    @Transactional("postgresqlJpaTransactionManager")
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 }

@@ -14,11 +14,12 @@ class MssqlNbaPlayerRepositoryV4(
 ) {
     private val log = logger {}
 
-    fun findYoungestPlayers(number: Int) = mssqlNbaPlayerJpaRepository.findByOrderByBirthdateDesc(PageRequest.of(0, number))
+    fun findYoungestPlayers(number: Int) = mssqlNbaPlayerJpaRepository
+        .findByOrderByBirthdateDesc(PageRequest.of(0, number))
 
-    fun findOldestPlayers(number: Int) = mssqlNbaPlayerJpaRepository.findByOrderByBirthdateAsc(PageRequest.of(0, number))
+    fun findOldestPlayers(number: Int) = mssqlNbaPlayerJpaRepository
+        .findByOrderByBirthdateAsc(PageRequest.of(0, number))
 
-    @Transactional("mssqlJpaTransactionManager")
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {
         //To increase the likelihood of potential deadlock we add delay and flush in between updates.
         //Doing this should not cause deadlocks if the solution is sound.

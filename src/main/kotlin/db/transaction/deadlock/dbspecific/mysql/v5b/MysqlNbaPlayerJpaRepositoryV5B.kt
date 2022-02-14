@@ -1,4 +1,4 @@
-package db.transaction.deadlock.dbspecific.postgresql.v5
+package db.transaction.deadlock.dbspecific.mysql.v5b
 
 import db.transaction.deadlock.model.NbaPlayer
 import org.springframework.data.domain.Pageable
@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional
 import javax.persistence.LockModeType
 
 
-interface PostgresqlNbaPlayerJpaRepositoryV5: JpaRepository<NbaPlayer, Long> {
+interface MysqlNbaPlayerJpaRepositoryV5B: JpaRepository<NbaPlayer, Long> {
 
     fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 

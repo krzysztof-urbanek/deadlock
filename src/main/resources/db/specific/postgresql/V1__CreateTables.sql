@@ -14,3 +14,6 @@ CREATE TABLE nba_player
     birthdate           TIMESTAMP       NOT NULL,
     mentions            BIGINT          NOT NULL DEFAULT 0
 );
+
+CREATE INDEX birthdate ON nba_player(birthdate);
+

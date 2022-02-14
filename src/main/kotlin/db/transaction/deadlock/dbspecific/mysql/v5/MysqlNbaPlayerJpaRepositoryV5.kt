@@ -10,11 +10,10 @@ import javax.persistence.LockModeType
 
 interface MysqlNbaPlayerJpaRepositoryV5: JpaRepository<NbaPlayer, Long> {
 
-    @Transactional("mysqlJpaTransactionManager")
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
-    @Transactional("mysqlJpaTransactionManager")
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
+
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    fun findByOrdinalId(ordinalId: Long): NbaPlayer
 }

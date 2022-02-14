@@ -1,16 +1,17 @@
-package db.transaction.deadlock.dbspecific.postgresql.v5
+package db.transaction.deadlock.dbspecific.postgresql.v5b
 
 import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV5
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV5B
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
 
 @Service
-class PostgresqlNbaPlayersStatisticsServiceV5(
-    private val postgresqlNbaPlayerRepository: PostgresqlNbaPlayerRepositoryV5,
+class PostgresqlNbaPlayersStatisticsServiceV5B(
+    private val postgresqlNbaPlayerRepository: PostgresqlNbaPlayerRepositoryV5B,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV5 {
+): NbaPlayersStatisticsServiceV5B {
 
     @Transactional("postgresqlJpaTransactionManager")
     override fun publishYoungestPlayers(number: Int) {

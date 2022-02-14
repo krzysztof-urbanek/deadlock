@@ -10,11 +10,10 @@ import javax.persistence.LockModeType
 
 interface MssqlNbaPlayerJpaRepositoryV4: JpaRepository<NbaPlayer, Long> {
 
-    @Transactional("mssqlJpaTransactionManager")
+
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
-    @Transactional("mssqlJpaTransactionManager")
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 }

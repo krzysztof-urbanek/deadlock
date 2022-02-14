@@ -1,4 +1,4 @@
-package db.transaction.deadlock.dbspecific.mysql.v5
+package db.transaction.deadlock.dbspecific.postgresql.v5b
 
 import db.transaction.deadlock.model.NbaPlayer
 import mu.KotlinLogging.logger
@@ -8,25 +8,27 @@ import java.lang.Thread.sleep
 
 
 @Repository
-class MysqlNbaPlayerRepositoryV5(
-    private val mysqlNbaPlayerJpaRepository: MysqlNbaPlayerJpaRepositoryV5,
+class PostgresqlNbaPlayerRepositoryV5B(
+    private val postgresqlNbaPlayerJpaRepository: PostgresqlNbaPlayerJpaRepositoryV5B,
 ) {
     private val log = logger {}
 
-    fun findYoungestPlayers(number: Int) = mysqlNbaPlayerJpaRepository
+    fun findYoungestPlayers(number: Int) = postgresqlNbaPlayerJpaRepository
         .findByOrderByBirthdateDesc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(1000)
-            mysqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
+            postgresqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
-    fun findOldestPlayers(number: Int) = mysqlNbaPlayerJpaRepository
+    fun findOldestPlayers(number: Int) = postgresqlNbaPlayerJpaRepository
         .findByOrderByBirthdateAsc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(1000)
-            mysqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
+            postgresqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {
@@ -35,7 +37,7 @@ class MysqlNbaPlayerRepositoryV5(
         nbaPlayers.forEach {
             sleep( 1000)
             log.info("Thread id: ${Thread.currentThread().id}, player name: ${it.name}")
-            mysqlNbaPlayerJpaRepository.saveAndFlush(it)
+            postgresqlNbaPlayerJpaRepository.saveAndFlush(it)
         }
     }
 }

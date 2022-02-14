@@ -13,8 +13,9 @@ class MssqlNbaPlayerRepositoryV3(
 ) {
     private val log = logger {}
 
-    fun findYoungestPlayer() =
-        mssqlNbaPlayerJpaRepository.findByOrderByBirthdateDesc(PageRequest.of(0, 1)).firstOrNull()
+    fun findYoungestPlayer() = mssqlNbaPlayerJpaRepository
+        .findByOrderByBirthdateDesc(PageRequest.of(0, 1))
+        .firstOrNull()
 
     fun save(nbaPlayer: NbaPlayer) {
         //To increase the likelihood of potential deadlock we add delay and flush before the update.
