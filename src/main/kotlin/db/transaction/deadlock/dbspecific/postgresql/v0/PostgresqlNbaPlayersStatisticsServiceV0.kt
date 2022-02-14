@@ -12,7 +12,6 @@ class PostgresqlNbaPlayersStatisticsServiceV0(
     private val nbaPublisher: NbaPublisher,
 ): NbaPlayersStatisticsServiceV0 {
 
-    @Transactional("postgresqlJpaTransactionManager")
     override fun publishYoungestPlayer() {
         val youngest = postgresqlNbaPlayerRepository.findYoungestPlayer() ?: return
 
