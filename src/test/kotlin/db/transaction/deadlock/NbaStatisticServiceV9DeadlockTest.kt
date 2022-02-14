@@ -27,10 +27,10 @@ class NbaStatisticsServiceV9DeadlockTest {
     private val log = KotlinLogging.logger {}
 
     @Autowired lateinit var mysqlNbaPlayersStatisticsService: MysqlNbaPlayersStatisticsServiceV9
-    @Autowired lateinit var mysqlNbaPlayerJpaRepositoryV1: MysqlNbaPlayerJpaRepositoryV9
+    @Autowired lateinit var mysqlNbaPlayerJpaRepository: MysqlNbaPlayerJpaRepositoryV9
 
     @Autowired lateinit var postgresqlNbaPlayersStatisticsService: PostgresqlNbaPlayersStatisticsServiceV9
-    @Autowired lateinit var postgresqlNbaPlayerJpaRepositoryV1: PostgresqlNbaPlayerJpaRepositoryV9
+    @Autowired lateinit var postgresqlNbaPlayerJpaRepository: PostgresqlNbaPlayerJpaRepositoryV9
 
     @Autowired lateinit var mssqlNbaPlayersStatisticsService: MssqlNbaPlayersStatisticsServiceV9
     @Autowired lateinit var mssqlNbaPlayerJpaRepository: MssqlNbaPlayerJpaRepositoryV9
@@ -38,19 +38,19 @@ class NbaStatisticsServiceV9DeadlockTest {
     @AfterEach
     fun cleanUpNbaPlayers() {
         log.info("=====\nRemoving all Nba Players from all the databases")
-        mysqlNbaPlayerJpaRepositoryV1.deleteAllInBatch()
-        postgresqlNbaPlayerJpaRepositoryV1.deleteAllInBatch()
+        mysqlNbaPlayerJpaRepository.deleteAllInBatch()
+        postgresqlNbaPlayerJpaRepository.deleteAllInBatch()
         mssqlNbaPlayerJpaRepository.deleteAllInBatch()
     }
 
     @Test
     fun mysqlConcurrencyTest() {
-        concurrencyTest(mysqlNbaPlayerJpaRepositoryV1, mysqlNbaPlayersStatisticsService)
+        concurrencyTest(mysqlNbaPlayerJpaRepository, mysqlNbaPlayersStatisticsService)
     }
 
     @Test
     fun postgresqlConcurrencyTest() {
-        concurrencyTest(postgresqlNbaPlayerJpaRepositoryV1, postgresqlNbaPlayersStatisticsService)
+        concurrencyTest(postgresqlNbaPlayerJpaRepository, postgresqlNbaPlayersStatisticsService)
     }
 
     @Test

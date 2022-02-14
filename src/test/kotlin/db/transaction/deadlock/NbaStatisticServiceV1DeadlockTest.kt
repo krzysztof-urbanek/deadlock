@@ -60,7 +60,7 @@ class NbaStatisticsServiceV1DeadlockTest {
 
     fun concurrencyTest(
         nbaPlayerJpaRepository: JpaRepository<NbaPlayer, Long>,
-        nbaPlayersStatisticsServiceV1: NbaPlayersStatisticsServiceV1,
+        nbaPlayersStatisticsService: NbaPlayersStatisticsServiceV1,
     ) {
         log.info("Populating all the databases with NBA players")
         nbaPlayerJpaRepository.saveAllAndFlush(listOf(
@@ -77,10 +77,10 @@ class NbaStatisticsServiceV1DeadlockTest {
         try {
             listOf(
                 executorService.submit(callable {
-                    nbaPlayersStatisticsServiceV1.publishYoungestPlayer()
+                    nbaPlayersStatisticsService.publishYoungestPlayer()
                 }),
                 executorService.submit(callable {
-                    nbaPlayersStatisticsServiceV1.publishYoungestPlayer()
+                    nbaPlayersStatisticsService.publishYoungestPlayer()
                 })
             ).forEach {
                 it.get()

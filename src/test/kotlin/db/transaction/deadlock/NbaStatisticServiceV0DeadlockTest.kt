@@ -1,15 +1,15 @@
 package db.transaction.deadlock
 
-import db.transaction.deadlock.dbspecific.mssql.v2.MssqlNbaPlayerJpaRepositoryV2
-import db.transaction.deadlock.dbspecific.mssql.v2.MssqlNbaPlayersStatisticsServiceV2
-import db.transaction.deadlock.dbspecific.mysql.v2.MysqlNbaPlayerJpaRepositoryV2
-import db.transaction.deadlock.dbspecific.mysql.v2.MysqlNbaPlayersStatisticsServiceV2
-import db.transaction.deadlock.dbspecific.postgresql.v2.PostgresqlNbaPlayerJpaRepositoryV2
-import db.transaction.deadlock.dbspecific.postgresql.v2.PostgresqlNbaPlayersStatisticsServiceV2
+import db.transaction.deadlock.dbspecific.mssql.v0.MssqlNbaPlayerJpaRepositoryV0
+import db.transaction.deadlock.dbspecific.mssql.v0.MssqlNbaPlayersStatisticsServiceV0
+import db.transaction.deadlock.dbspecific.mysql.v0.MysqlNbaPlayerJpaRepositoryV0
+import db.transaction.deadlock.dbspecific.mysql.v0.MysqlNbaPlayersStatisticsServiceV0
+import db.transaction.deadlock.dbspecific.postgresql.v0.PostgresqlNbaPlayerJpaRepositoryV0
+import db.transaction.deadlock.dbspecific.postgresql.v0.PostgresqlNbaPlayersStatisticsServiceV0
 import db.transaction.deadlock.model.NbaPlayer
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV2
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV0
 import mu.KotlinLogging.logger
-import org.assertj.core.api.Assertions
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
@@ -22,18 +22,18 @@ import java.util.concurrent.TimeUnit
 
 
 @SpringBootTest
-class NbaStatisticsServiceV2DeadlockTest {
+class NbaStatisticsServiceV0DeadlockTest {
 
     private val log = logger {}
 
-    @Autowired lateinit var mysqlNbaPlayersStatisticsService: MysqlNbaPlayersStatisticsServiceV2
-    @Autowired lateinit var mysqlNbaPlayerJpaRepository: MysqlNbaPlayerJpaRepositoryV2
+    @Autowired lateinit var mysqlNbaPlayersStatisticsService: MysqlNbaPlayersStatisticsServiceV0
+    @Autowired lateinit var mysqlNbaPlayerJpaRepository: MysqlNbaPlayerJpaRepositoryV0
 
-    @Autowired lateinit var postgresqlNbaPlayersStatisticsService: PostgresqlNbaPlayersStatisticsServiceV2
-    @Autowired lateinit var postgresqlNbaPlayerJpaRepository: PostgresqlNbaPlayerJpaRepositoryV2
+    @Autowired lateinit var postgresqlNbaPlayersStatisticsService: PostgresqlNbaPlayersStatisticsServiceV0
+    @Autowired lateinit var postgresqlNbaPlayerJpaRepository: PostgresqlNbaPlayerJpaRepositoryV0
 
-    @Autowired lateinit var mssqlNbaPlayersStatisticsService: MssqlNbaPlayersStatisticsServiceV2
-    @Autowired lateinit var mssqlNbaPlayerJpaRepository: MssqlNbaPlayerJpaRepositoryV2
+    @Autowired lateinit var mssqlNbaPlayersStatisticsService: MssqlNbaPlayersStatisticsServiceV0
+    @Autowired lateinit var mssqlNbaPlayerJpaRepository: MssqlNbaPlayerJpaRepositoryV0
 
     @AfterEach
     fun cleanUpNbaPlayers() {
@@ -60,7 +60,7 @@ class NbaStatisticsServiceV2DeadlockTest {
 
     fun concurrencyTest(
         nbaPlayerJpaRepository: JpaRepository<NbaPlayer, Long>,
-        nbaPlayersStatisticsService: NbaPlayersStatisticsServiceV2,
+        nbaPlayersStatisticsService: NbaPlayersStatisticsServiceV0,
     ) {
         log.info("Populating all the databases with NBA players")
         nbaPlayerJpaRepository.saveAllAndFlush(listOf(
@@ -94,6 +94,6 @@ class NbaStatisticsServiceV2DeadlockTest {
         val allNbaPlayers = nbaPlayerJpaRepository.findAll()
         allNbaPlayers.forEach { log.info("# $it") }
 
-        Assertions.assertThat(allNbaPlayers.sumOf { it.mentions }).isEqualTo(2)
+        assertThat(allNbaPlayers.sumOf { it.mentions }).isEqualTo(2)
     }
 }
