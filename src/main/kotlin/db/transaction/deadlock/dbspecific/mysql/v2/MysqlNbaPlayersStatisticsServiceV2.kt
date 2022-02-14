@@ -1,6 +1,6 @@
 package db.transaction.deadlock.dbspecific.mysql.v2
 
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV1
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV2
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional
 class MysqlNbaPlayersStatisticsServiceV2(
     private val mysqlNbaPlayerRepository: MysqlNbaPlayerRepositoryV2,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV1 {
+): NbaPlayersStatisticsServiceV2 {
 
     @Transactional("mysqlJpaTransactionManager")
     override fun publishYoungestPlayer() {

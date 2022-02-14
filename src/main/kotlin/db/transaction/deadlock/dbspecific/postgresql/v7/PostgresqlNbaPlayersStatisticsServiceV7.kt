@@ -1,16 +1,19 @@
-package db.transaction.deadlock.dbspecific.postgresql.v5
+package db.transaction.deadlock.dbspecific.postgresql.v7
 
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV5
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV7
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
+import org.springframework.transaction.annotation.Isolation
+import org.springframework.transaction.annotation.Transactional
 
 
 @Service
-class PostgresqlNbaPlayersStatisticsServiceV5(
-    private val postgresqlNbaPlayerRepository: PostgresqlNbaPlayerRepositoryV5,
+class PostgresqlNbaPlayersStatisticsServiceV7(
+    private val postgresqlNbaPlayerRepository: PostgresqlNbaPlayerRepositoryV7,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV5 {
+): NbaPlayersStatisticsServiceV7 {
 
+    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
     override fun publishYoungestPlayers(number: Int) {
         val youngest = postgresqlNbaPlayerRepository.findYoungestPlayers(number)
 
@@ -22,6 +25,7 @@ class PostgresqlNbaPlayersStatisticsServiceV5(
         postgresqlNbaPlayerRepository.saveAll(youngest)
     }
 
+    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
     override fun publishOldestPlayers(number: Int) {
         val oldest = postgresqlNbaPlayerRepository.findOldestPlayers(number)
 

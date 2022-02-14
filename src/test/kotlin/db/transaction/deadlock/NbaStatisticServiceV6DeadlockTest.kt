@@ -7,7 +7,7 @@ import db.transaction.deadlock.dbspecific.mysql.v6.MysqlNbaPlayersStatisticsServ
 import db.transaction.deadlock.dbspecific.postgresql.v6.PostgresqlNbaPlayerJpaRepositoryV6
 import db.transaction.deadlock.dbspecific.postgresql.v6.PostgresqlNbaPlayersStatisticsServiceV6
 import db.transaction.deadlock.model.NbaPlayer
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV4
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV6
 import mu.KotlinLogging
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.api.AfterEach
@@ -37,7 +37,7 @@ class NbaStatisticsServiceV6DeadlockTest {
 
     @AfterEach
     fun cleanUpNbaPlayers() {
-        log.info("Removing all Nba Players from all the databases")
+        log.info("=====\nRemoving all Nba Players from all the databases")
         mysqlNbaPlayerJpaRepositoryV1.deleteAllInBatch()
         postgresqlNbaPlayerJpaRepositoryV1.deleteAllInBatch()
         mssqlNbaPlayerJpaRepository.deleteAllInBatch()
@@ -60,7 +60,7 @@ class NbaStatisticsServiceV6DeadlockTest {
 
     fun concurrencyTest(
         nbaPlayerJpaRepository: JpaRepository<NbaPlayer, Long>,
-        nbaPlayersStatisticsServiceV4: NbaPlayersStatisticsServiceV4,
+        nbaPlayersStatisticsService: NbaPlayersStatisticsServiceV6,
     ) {
         log.info("Populating all the databases with NBA players")
         nbaPlayerJpaRepository.saveAllAndFlush(listOf(
@@ -69,17 +69,18 @@ class NbaStatisticsServiceV6DeadlockTest {
             NbaPlayer(name = "Kevin Durant", birthdate = LocalDate.of(1988,9,29)),
             NbaPlayer(name = "Chris Paul", birthdate = LocalDate.of(1985,5,6)),
         ))
-        log.info("Finished populating all the databases with NBA players")
+        log.info("Finished populating all the databases with NBA players\n=====")
+        log.info("Testing...")
 
         val executorService = Executors.newFixedThreadPool(2)
 
         try {
             listOf(
                 executorService.submit(callable {
-                    nbaPlayersStatisticsServiceV4.publishOldestPlayers(3)
+                    nbaPlayersStatisticsService.publishOldestPlayers(3)
                 }),
                 executorService.submit(callable {
-                    nbaPlayersStatisticsServiceV4.publishYoungestPlayers(3)
+                    nbaPlayersStatisticsService.publishYoungestPlayers(3)
                 })
             ).forEach {
                 it.get()
@@ -89,7 +90,7 @@ class NbaStatisticsServiceV6DeadlockTest {
             executorService.awaitTermination(10, TimeUnit.SECONDS)
         }
 
-        log.info("Listing all Nba players from the database")
+        log.info("=====\nListing all Nba players from the database")
         val allNbaPlayers = nbaPlayerJpaRepository.findAll()
         allNbaPlayers.forEach { log.info("# $it") }
 

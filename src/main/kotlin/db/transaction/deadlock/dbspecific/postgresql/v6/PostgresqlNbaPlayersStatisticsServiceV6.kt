@@ -1,6 +1,6 @@
 package db.transaction.deadlock.dbspecific.postgresql.v6
 
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV4
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV6
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional
 class PostgresqlNbaPlayersStatisticsServiceV6(
     private val postgresqlNbaPlayerRepository: PostgresqlNbaPlayerRepositoryV6,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV4 {
+): NbaPlayersStatisticsServiceV6 {
 
     @Transactional("postgresqlJpaTransactionManager")
     override fun publishYoungestPlayers(number: Int) {

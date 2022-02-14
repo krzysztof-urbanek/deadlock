@@ -1,6 +1,6 @@
 package db.transaction.deadlock.dbspecific.mysql.v5
 
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV4
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV5
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service
 class MysqlNbaPlayersStatisticsServiceV5(
     private val mysqlNbaPlayerRepository: MysqlNbaPlayerRepositoryV5,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV4 {
+): NbaPlayersStatisticsServiceV5 {
 
     override fun publishYoungestPlayers(number: Int) {
         val youngest = mysqlNbaPlayerRepository.findYoungestPlayers(number)

@@ -7,7 +7,7 @@ import db.transaction.deadlock.dbspecific.mysql.v2.MysqlNbaPlayersStatisticsServ
 import db.transaction.deadlock.dbspecific.postgresql.v2.PostgresqlNbaPlayerJpaRepositoryV2
 import db.transaction.deadlock.dbspecific.postgresql.v2.PostgresqlNbaPlayersStatisticsServiceV2
 import db.transaction.deadlock.model.NbaPlayer
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV1
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV2
 import mu.KotlinLogging.logger
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.api.AfterEach
@@ -27,30 +27,30 @@ class NbaStatisticsServiceV2DeadlockTest {
     private val log = logger {}
 
     @Autowired lateinit var mysqlNbaPlayersStatisticsService: MysqlNbaPlayersStatisticsServiceV2
-    @Autowired lateinit var mysqlNbaPlayerJpaRepositoryV1: MysqlNbaPlayerJpaRepositoryV2
+    @Autowired lateinit var mysqlNbaPlayerJpaRepository: MysqlNbaPlayerJpaRepositoryV2
 
     @Autowired lateinit var postgresqlNbaPlayersStatisticsService: PostgresqlNbaPlayersStatisticsServiceV2
-    @Autowired lateinit var postgresqlNbaPlayerJpaRepositoryV1: PostgresqlNbaPlayerJpaRepositoryV2
+    @Autowired lateinit var postgresqlNbaPlayerJpaRepository: PostgresqlNbaPlayerJpaRepositoryV2
 
     @Autowired lateinit var mssqlNbaPlayersStatisticsService: MssqlNbaPlayersStatisticsServiceV2
     @Autowired lateinit var mssqlNbaPlayerJpaRepository: MssqlNbaPlayerJpaRepositoryV2
 
     @AfterEach
     fun cleanUpNbaPlayers() {
-        log.info("Removing all Nba Players from all the databases")
-        mysqlNbaPlayerJpaRepositoryV1.deleteAllInBatch()
-        postgresqlNbaPlayerJpaRepositoryV1.deleteAllInBatch()
+        log.info("=====\nRemoving all Nba Players from all the databases")
+        mysqlNbaPlayerJpaRepository.deleteAllInBatch()
+        postgresqlNbaPlayerJpaRepository.deleteAllInBatch()
         mssqlNbaPlayerJpaRepository.deleteAllInBatch()
     }
 
     @Test
     fun mysqlConcurrencyTest() {
-        concurrencyTest(mysqlNbaPlayerJpaRepositoryV1, mysqlNbaPlayersStatisticsService)
+        concurrencyTest(mysqlNbaPlayerJpaRepository, mysqlNbaPlayersStatisticsService)
     }
 
     @Test
     fun postgresqlConcurrencyTest() {
-        concurrencyTest(postgresqlNbaPlayerJpaRepositoryV1, postgresqlNbaPlayersStatisticsService)
+        concurrencyTest(postgresqlNbaPlayerJpaRepository, postgresqlNbaPlayersStatisticsService)
     }
 
     @Test
@@ -60,7 +60,7 @@ class NbaStatisticsServiceV2DeadlockTest {
 
     fun concurrencyTest(
         nbaPlayerJpaRepository: JpaRepository<NbaPlayer, Long>,
-        nbaPlayersStatisticsServiceV1: NbaPlayersStatisticsServiceV1,
+        nbaPlayersStatisticsServiceV1: NbaPlayersStatisticsServiceV2,
     ) {
         log.info("Populating all the databases with NBA players")
         nbaPlayerJpaRepository.saveAllAndFlush(listOf(
@@ -69,7 +69,8 @@ class NbaStatisticsServiceV2DeadlockTest {
             NbaPlayer(name = "Kevin Durant", birthdate = LocalDate.of(1988,9,29)),
             NbaPlayer(name = "Chris Paul", birthdate = LocalDate.of(1985,5,6)),
         ))
-        log.info("Finished populating all the databases with NBA players")
+        log.info("Finished populating all the databases with NBA players\n=====")
+        log.info("Testing...")
 
         val executorService = Executors.newFixedThreadPool(2)
 
@@ -89,7 +90,7 @@ class NbaStatisticsServiceV2DeadlockTest {
             executorService.awaitTermination(10, TimeUnit.SECONDS)
         }
 
-        log.info("Listing all Nba players from the database")
+        log.info("=====\nListing all Nba players from the database")
         val allNbaPlayers = nbaPlayerJpaRepository.findAll()
         allNbaPlayers.forEach { log.info("# $it") }
 

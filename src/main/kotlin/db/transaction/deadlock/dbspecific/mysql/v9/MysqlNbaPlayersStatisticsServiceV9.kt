@@ -1,18 +1,19 @@
-package db.transaction.deadlock.dbspecific.mysql.v6
+package db.transaction.deadlock.dbspecific.mysql.v9
 
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV6
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV9
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
+import org.springframework.transaction.annotation.Isolation
 import org.springframework.transaction.annotation.Transactional
 
 
 @Service
-class MysqlNbaPlayersStatisticsServiceV6(
-    private val mysqlNbaPlayerRepository: MysqlNbaPlayerRepositoryV6,
+class MysqlNbaPlayersStatisticsServiceV9(
+    private val mysqlNbaPlayerRepository: MysqlNbaPlayerRepositoryV9,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV6 {
+): NbaPlayersStatisticsServiceV9 {
 
-    @Transactional("mysqlJpaTransactionManager")
+    @Transactional("mysqlJpaTransactionManager", isolation = Isolation.SERIALIZABLE)
     override fun publishYoungestPlayers(number: Int) {
         val youngest = mysqlNbaPlayerRepository.findYoungestPlayers(number)
 
@@ -24,7 +25,7 @@ class MysqlNbaPlayersStatisticsServiceV6(
         mysqlNbaPlayerRepository.saveAll(youngest)
     }
 
-    @Transactional("mysqlJpaTransactionManager")
+    @Transactional("mysqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
     override fun publishOldestPlayers(number: Int) {
         val oldest = mysqlNbaPlayerRepository.findOldestPlayers(number)
 

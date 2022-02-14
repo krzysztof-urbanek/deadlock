@@ -1,7 +1,6 @@
 package db.transaction.deadlock.dbspecific.mssql.v6
 
-import db.transaction.deadlock.dbspecific.mssql.v5.MssqlNbaPlayerRepositoryV5
-import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV4
+import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV6
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
@@ -9,9 +8,9 @@ import org.springframework.transaction.annotation.Transactional
 
 @Service
 class MssqlNbaPlayersStatisticsServiceV6(
-    private val mssqlNbaPlayerRepository: MssqlNbaPlayerRepositoryV5,
+    private val mssqlNbaPlayerRepository: MssqlNbaPlayerRepositoryV6,
     private val nbaPublisher: NbaPublisher,
-): NbaPlayersStatisticsServiceV4 {
+): NbaPlayersStatisticsServiceV6 {
 
     @Transactional("mssqlJpaTransactionManager")
     override fun publishYoungestPlayers(number: Int) {

@@ -37,7 +37,7 @@ class NbaStatisticsServiceV1DeadlockTest {
 
     @AfterEach
     fun cleanUpNbaPlayers() {
-        log.info("Removing all Nba Players from all the databases")
+        log.info("=====\nRemoving all Nba Players from all the databases")
         mysqlNbaPlayerJpaRepository.deleteAllInBatch()
         postgresqlNbaPlayerJpaRepository.deleteAllInBatch()
         mssqlNbaPlayerJpaRepository.deleteAllInBatch()
@@ -69,7 +69,8 @@ class NbaStatisticsServiceV1DeadlockTest {
             NbaPlayer(name = "Kevin Durant", birthdate = LocalDate.of(1988,9,29)),
             NbaPlayer(name = "Chris Paul", birthdate = LocalDate.of(1985,5,6)),
         ))
-        log.info("Finished populating all the databases with NBA players")
+        log.info("Finished populating all the databases with NBA players\n=====")
+        log.info("Testing...")
 
         val executorService = Executors.newFixedThreadPool(2)
 
@@ -89,7 +90,7 @@ class NbaStatisticsServiceV1DeadlockTest {
             executorService.awaitTermination(10, TimeUnit.SECONDS)
         }
 
-        log.info("Listing all Nba players from the database")
+        log.info("=====\nListing all Nba players from the database")
         val allNbaPlayers = nbaPlayerJpaRepository.findAll()
         allNbaPlayers.forEach { log.info("# $it") }
 
