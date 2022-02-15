@@ -13,13 +13,9 @@ import javax.persistence.LockModeType
 
 interface MysqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
 
-    @Transactional(isolation = Isolation.READ_UNCOMMITTED, propagation = Propagation.REQUIRES_NEW)
-    @Query("SELECT ordinal_id FROM nba_player ORDER BY birthdate ASC LIMIT :number", nativeQuery = true)
-    fun findOrdinalIdByOrderByBirthdateAsc(number: Int): List<Long>
+    fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
-    @Transactional(isolation = Isolation.READ_UNCOMMITTED, propagation = Propagation.REQUIRES_NEW)
-    @Query("SELECT ordinal_id FROM nba_player ORDER BY birthdate DESC LIMIT :number", nativeQuery = true)
-    fun findOrdinalIdByOrderByBirthdateDesc(number: Int): List<Long>
+    fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrdinalId(ordinalId: Long): NbaPlayer

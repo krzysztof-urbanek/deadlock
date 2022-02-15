@@ -13,11 +13,9 @@ import javax.persistence.LockModeType
 
 interface PostgresqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
 
-    @Query("SELECT ordinal_id FROM nba_player ORDER BY birthdate ASC LIMIT :number", nativeQuery = true)
-    fun findOrdinalIdByOrderByBirthdateAsc(number: Int): List<Long>
+    fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
-    @Query("SELECT ordinal_id FROM nba_player ORDER BY birthdate DESC LIMIT :number", nativeQuery = true)
-    fun findOrdinalIdByOrderByBirthdateDesc(number: Int): List<Long>
+    fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrdinalId(ordinalId: Long): NbaPlayer

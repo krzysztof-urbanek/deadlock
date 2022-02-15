@@ -14,21 +14,21 @@ class MysqlNbaPlayerRepositoryV6(
     private val log = logger {}
 
     fun findYoungestPlayers(number: Int) = mysqlNbaPlayerJpaRepository
-        .findOrdinalIdByOrderByBirthdateDesc(number)
-        .sortedBy { it }
+        .findByOrderByBirthdateDesc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
-            //To increase the likelihood of potential deadlock we add a delay
+            //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(500)
-            mysqlNbaPlayerJpaRepository.findByOrdinalId(it)
+            mysqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun findOldestPlayers(number: Int) = mysqlNbaPlayerJpaRepository
-        .findOrdinalIdByOrderByBirthdateAsc(number)
-        .sortedBy { it }
+        .findByOrderByBirthdateAsc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
-            //To increase the likelihood of potential deadlock we add a delay
+            //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(500)
-            mysqlNbaPlayerJpaRepository.findByOrdinalId(it)
+            mysqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {

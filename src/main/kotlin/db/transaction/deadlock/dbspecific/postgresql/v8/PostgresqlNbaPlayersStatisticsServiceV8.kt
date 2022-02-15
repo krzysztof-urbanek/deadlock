@@ -13,7 +13,7 @@ class PostgresqlNbaPlayersStatisticsServiceV8(
     private val nbaPublisher: NbaPublisher,
 ): NbaPlayersStatisticsServiceV8 {
 
-    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.SERIALIZABLE)
+    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
     override fun publishYoungestPlayers(number: Int) {
         val youngest = postgresqlNbaPlayerRepository.findYoungestPlayers(number)
 
@@ -25,7 +25,7 @@ class PostgresqlNbaPlayersStatisticsServiceV8(
         postgresqlNbaPlayerRepository.saveAll(youngest)
     }
 
-    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.SERIALIZABLE)
+    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
     override fun publishOldestPlayers(number: Int) {
         val oldest = postgresqlNbaPlayerRepository.findOldestPlayers(number)
 

@@ -2,6 +2,7 @@ package db.transaction.deadlock.dbspecific.mssql.v6
 
 import db.transaction.deadlock.model.NbaPlayer
 import mu.KotlinLogging.logger
+import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Repository
 import java.lang.Thread.sleep
 
@@ -13,21 +14,21 @@ class MssqlNbaPlayerRepositoryV6(
     private val log = logger {}
 
     fun findYoungestPlayers(number: Int) = mssqlNbaPlayerJpaRepository
-        .findOrdinalIdByOrderByBirthdateDesc(number)
-        .sortedBy { it }
+        .findByOrderByBirthdateDesc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(500)
-            mssqlNbaPlayerJpaRepository.findByOrdinalId(it)
+            mssqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun findOldestPlayers(number: Int) = mssqlNbaPlayerJpaRepository
-        .findOrdinalIdByOrderByBirthdateAsc(number)
-        .sortedBy { it }
+        .findByOrderByBirthdateAsc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(500)
-            mssqlNbaPlayerJpaRepository.findByOrdinalId(it)
+            mssqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {

@@ -14,21 +14,21 @@ class PostgresqlNbaPlayerRepositoryV6(
     private val log = logger {}
 
     fun findYoungestPlayers(number: Int) = postgresqlNbaPlayerJpaRepository
-        .findOrdinalIdByOrderByBirthdateDesc(number)
-        .sortedBy { it }
+        .findByOrderByBirthdateDesc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(500)
-            postgresqlNbaPlayerJpaRepository.findByOrdinalId(it)
+            postgresqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun findOldestPlayers(number: Int) = postgresqlNbaPlayerJpaRepository
-        .findOrdinalIdByOrderByBirthdateAsc(number)
-        .sortedBy { it }
+        .findByOrderByBirthdateAsc(PageRequest.of(0, number))
+        .sortedBy { it.ordinalId }
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
             sleep(500)
-            postgresqlNbaPlayerJpaRepository.findByOrdinalId(it)
+            postgresqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {
