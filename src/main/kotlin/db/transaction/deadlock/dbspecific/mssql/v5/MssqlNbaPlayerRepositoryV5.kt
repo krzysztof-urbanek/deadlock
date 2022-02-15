@@ -18,7 +18,7 @@ class MssqlNbaPlayerRepositoryV5(
         .findByOrderByBirthdateDesc(PageRequest.of(0, number))
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
-            sleep(1000)
+            sleep(500)
             mssqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
@@ -26,7 +26,7 @@ class MssqlNbaPlayerRepositoryV5(
         .findByOrderByBirthdateAsc(PageRequest.of(0, number))
         .map {
             //To increase the likelihood of potential deadlock we add a delay in between row selection
-            sleep(1000)
+            sleep(500)
             mssqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
 
@@ -34,7 +34,7 @@ class MssqlNbaPlayerRepositoryV5(
         //To increase the likelihood of potential deadlock we add delay and flush in between updates.
         //Doing this should not cause deadlocks if the solution is sound.
         nbaPlayers.forEach {
-            sleep( 1000)
+            sleep(500)
             log.info("Thread id: ${Thread.currentThread().id}, player name: ${it.name}")
             mssqlNbaPlayerJpaRepository.saveAndFlush(it)
         }

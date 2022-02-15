@@ -13,9 +13,15 @@ import javax.persistence.LockModeType
 
 interface MssqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
 
+    /**
+     * Selecting only ordinalId to prevent caching
+     */
     @Query("SELECT TOP (:number) ordinal_id FROM nba_player with(nolock) ORDER BY birthdate ASC", nativeQuery = true)
     fun findOrdinalIdByOrderByBirthdateAsc(number: Int): List<Long>
 
+    /**
+     * Selecting only ordinalId to prevent caching
+     */
     @Query("SELECT TOP (:number) ordinal_id FROM nba_player with(nolock) ORDER BY birthdate DESC", nativeQuery = true)
     fun findOrdinalIdByOrderByBirthdateDesc(number: Int): List<Long>
 

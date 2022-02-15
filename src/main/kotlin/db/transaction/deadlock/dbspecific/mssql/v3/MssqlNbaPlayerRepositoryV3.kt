@@ -20,7 +20,7 @@ class MssqlNbaPlayerRepositoryV3(
     fun save(nbaPlayer: NbaPlayer) {
         //To increase the likelihood of potential deadlock we add delay and flush before the update.
         //Doing this should not cause deadlocks if the solution is sound.
-        sleep( 1000)
+        sleep(500)
         log.info("Thread id: ${Thread.currentThread().id}, player name: ${nbaPlayer.name}")
         mssqlNbaPlayerJpaRepository.saveAndFlush(nbaPlayer)
     }

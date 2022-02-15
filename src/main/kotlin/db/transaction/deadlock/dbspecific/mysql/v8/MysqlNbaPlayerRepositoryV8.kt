@@ -23,7 +23,7 @@ class MysqlNbaPlayerRepositoryV8(
         //To increase the likelihood of potential deadlock we add delay and flush in between updates.
         //Doing this should not cause deadlocks if the solution is sound.
         nbaPlayers.sortedBy { it.ordinalId }.forEach {
-            sleep( 1000)
+            sleep(500)
             log.info("Thread id: ${Thread.currentThread().id}, player name: ${it.name}")
             mysqlNbaPlayerJpaRepository.saveAndFlush(it)
         }
