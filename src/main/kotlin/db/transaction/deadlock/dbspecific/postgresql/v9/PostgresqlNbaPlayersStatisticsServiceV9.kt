@@ -25,7 +25,7 @@ class PostgresqlNbaPlayersStatisticsServiceV9(
         postgresqlNbaPlayerRepository.saveAll(youngest)
     }
 
-    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
+    @Transactional("postgresqlJpaTransactionManager", isolation = Isolation.SERIALIZABLE)
     override fun publishOldestPlayers(number: Int) {
         val oldest = postgresqlNbaPlayerRepository.findOldestPlayers(number)
 

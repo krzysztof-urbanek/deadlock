@@ -25,7 +25,7 @@ class MssqlNbaPlayersStatisticsServiceV9(
         mssqlNbaPlayerRepository.saveAll(youngest)
     }
 
-    @Transactional("mssqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
+    @Transactional("mssqlJpaTransactionManager", isolation = Isolation.SERIALIZABLE)
     override fun publishOldestPlayers(number: Int) {
         val oldest = mssqlNbaPlayerRepository.findOldestPlayers(number)
 

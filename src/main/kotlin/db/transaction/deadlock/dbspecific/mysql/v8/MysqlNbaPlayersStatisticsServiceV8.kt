@@ -25,7 +25,7 @@ class MysqlNbaPlayersStatisticsServiceV8(
         mysqlNbaPlayerRepository.saveAll(youngest)
     }
 
-    @Transactional("mysqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
+    @Transactional("mysqlJpaTransactionManager", isolation = Isolation.SERIALIZABLE)
     override fun publishOldestPlayers(number: Int) {
         val oldest = mysqlNbaPlayerRepository.findOldestPlayers(number)
 
