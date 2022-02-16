@@ -14,18 +14,24 @@ class MysqlNbaPlayerRepositoryV8(
     private val log = logger {}
 
     fun findYoungestPlayers(number: Int) = mysqlNbaPlayerJpaRepository
-        .findByOrderByBirthdateDesc(PageRequest.of(0, number))
+        .findOrdinalIdByOrderByBirthdateDesc(number)
+        .sortedBy { it }
+        .map {
+            //To increase the likelihood of potential deadlock we add a delay
+            sleep(500)
+            mysqlNbaPlayerJpaRepository.findByOrdinalId(it)
+        }
 
     fun findOldestPlayers(number: Int) = mysqlNbaPlayerJpaRepository
-        .findByOrderByBirthdateAsc(PageRequest.of(0, number))
+        .findOrdinalIdByOrderByBirthdateAsc(number)
+        .sortedBy { it }
+        .map {
+            //To increase the likelihood of potential deadlock we add a delay
+            sleep(500)
+            mysqlNbaPlayerJpaRepository.findByOrdinalId(it)
+        }
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {
-        //To increase the likelihood of potential deadlock we add delay and flush in between updates.
-        //Doing this should not cause deadlocks if the solution is sound.
-        nbaPlayers.sortedBy { it.ordinalId }.forEach {
-            sleep(500)
-            log.info("Thread id: ${Thread.currentThread().id}, player name: ${it.name}")
-            mysqlNbaPlayerJpaRepository.saveAndFlush(it)
-        }
+        mysqlNbaPlayerJpaRepository.saveAllAndFlush(nbaPlayers)
     }
 }

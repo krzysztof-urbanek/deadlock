@@ -13,7 +13,7 @@ class MysqlNbaPlayersStatisticsServiceV8(
     private val nbaPublisher: NbaPublisher,
 ): NbaPlayersStatisticsServiceV8 {
 
-    @Transactional("mysqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
+    @Transactional("mysqlJpaTransactionManager")
     override fun publishYoungestPlayers(number: Int) {
         val youngest = mysqlNbaPlayerRepository.findYoungestPlayers(number)
 
@@ -25,7 +25,7 @@ class MysqlNbaPlayersStatisticsServiceV8(
         mysqlNbaPlayerRepository.saveAll(youngest)
     }
 
-    @Transactional("mysqlJpaTransactionManager", isolation = Isolation.REPEATABLE_READ)
+    @Transactional("mysqlJpaTransactionManager")
     override fun publishOldestPlayers(number: Int) {
         val oldest = mysqlNbaPlayerRepository.findOldestPlayers(number)
 

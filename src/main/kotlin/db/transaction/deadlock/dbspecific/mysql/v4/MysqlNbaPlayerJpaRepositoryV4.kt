@@ -10,9 +10,7 @@ import javax.persistence.LockModeType
 
 interface MysqlNbaPlayerJpaRepositoryV4: JpaRepository<NbaPlayer, Long> {
 
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 }

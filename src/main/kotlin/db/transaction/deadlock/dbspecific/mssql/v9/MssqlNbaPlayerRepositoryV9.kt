@@ -20,12 +20,6 @@ class MssqlNbaPlayerRepositoryV9(
         .findByOrderByBirthdateAsc(PageRequest.of(0, number))
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {
-        //To increase the likelihood of potential deadlock we add delay and flush in between updates.
-        //Doing this should not cause deadlocks if the solution is sound.
-        nbaPlayers.sortedBy { it.ordinalId }.forEach {
-            sleep(500)
-            log.info("Thread id: ${Thread.currentThread().id}, player name: ${it.name}")
-            mssqlNbaPlayerJpaRepository.saveAndFlush(it)
-        }
+        mssqlNbaPlayerJpaRepository.saveAllAndFlush(nbaPlayers)
     }
 }

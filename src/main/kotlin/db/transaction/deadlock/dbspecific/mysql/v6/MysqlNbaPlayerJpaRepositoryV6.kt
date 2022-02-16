@@ -13,10 +13,15 @@ import javax.persistence.LockModeType
 
 interface MysqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
 
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
 
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
-    fun findByOrdinalId(ordinalId: Long): NbaPlayer
+    @Query("SELECT * FROM nba_player FORCE INDEX (birthdate) ORDER BY birthdate ASC LIMIT :number", nativeQuery = true)
+    fun findByOrderByBirthdateAscNative(number: Int): List<NbaPlayer>
+
+    @Query("SELECT * FROM nba_player FORCE INDEX (birthdate) ORDER BY birthdate DESC LIMIT :number", nativeQuery = true)
+    fun findByOrderByBirthdateDescNative(number: Int): List<NbaPlayer>
 }

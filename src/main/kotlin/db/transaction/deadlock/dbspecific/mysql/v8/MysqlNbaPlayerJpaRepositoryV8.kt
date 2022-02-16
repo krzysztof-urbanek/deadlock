@@ -3,11 +3,25 @@ package db.transaction.deadlock.dbspecific.mysql.v8
 import db.transaction.deadlock.model.NbaPlayer
 import org.springframework.data.domain.Pageable
 import org.springframework.data.jpa.repository.JpaRepository
+import org.springframework.data.jpa.repository.Lock
+import org.springframework.data.jpa.repository.Query
+import javax.persistence.LockModeType
 
 
 interface MysqlNbaPlayerJpaRepositoryV8: JpaRepository<NbaPlayer, Long> {
 
-    fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
+    /**
+     * Selecting only ordinalId to prevent caching
+     */
+    @Query("SELECT ordinal_id FROM nba_player ORDER BY birthdate ASC LIMIT :number", nativeQuery = true)
+    fun findOrdinalIdByOrderByBirthdateAsc(number: Int): List<Long>
 
-    fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
+    /**
+     * Selecting only ordinalId to prevent caching
+     */
+    @Query("SELECT ordinal_id FROM nba_player ORDER BY birthdate DESC LIMIT :number", nativeQuery = true)
+    fun findOrdinalIdByOrderByBirthdateDesc(number: Int): List<Long>
+
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    fun findByOrdinalId(ordinalId: Long): NbaPlayer
 }
