@@ -1,0 +1,1 @@
+4. A new scenario: deadlock verification.

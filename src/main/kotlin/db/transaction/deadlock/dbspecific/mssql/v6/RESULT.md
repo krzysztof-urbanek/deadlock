@@ -1,0 +1,1 @@
+6. Slow selects and mandatory indexes make deadlocks surface.

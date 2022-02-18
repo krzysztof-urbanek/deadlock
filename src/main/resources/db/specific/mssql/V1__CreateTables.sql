@@ -16,3 +16,12 @@ CREATE TABLE nba_player
 );
 
 CREATE INDEX birthdate ON nba_player(birthdate);
+
+GO
+
+CREATE FUNCTION forced_timeout(@seconds int) returns int as
+BEGIN
+    DECLARE @endTime datetime2(0) = DATEADD(SECOND, @seconds, GETDATE());
+    WHILE (GETDATE() < @endTime ) BEGIN SET @endTime = @endTime; END
+    RETURN @seconds
+END

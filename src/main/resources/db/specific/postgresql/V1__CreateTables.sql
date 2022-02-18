@@ -16,4 +16,3 @@ CREATE TABLE nba_player
 );
 
 CREATE INDEX birthdate ON nba_player(birthdate);
-

@@ -1,0 +1,1 @@
+1. JpaRepository.findByX() doesn't even share lock by default.

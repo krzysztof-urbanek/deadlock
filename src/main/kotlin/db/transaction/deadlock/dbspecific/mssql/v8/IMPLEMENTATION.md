@@ -1,0 +1,1 @@
+8. The trick to avoid caching.

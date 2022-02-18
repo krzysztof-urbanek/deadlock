@@ -13,15 +13,21 @@ import javax.persistence.LockModeType
 
 interface MssqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
 
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
-    fun findByOrderByBirthdateAsc(pageable: Pageable): List<NbaPlayer>
-
-    @Lock(LockModeType.PESSIMISTIC_WRITE)
-    fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
-
-    @Query("SELECT TOP (:number) * FROM nba_player WITH(INDEX(birthdate)) ORDER BY birthdate ASC", nativeQuery = true)
+    @Query("""
+        SELECT TOP (:number) np.*, dbo.forced_timeout(2)
+        FROM nba_player np WITH(updlock, rowlock, INDEX(birthdate))
+        ORDER BY np.birthdate ASC
+        """,
+        nativeQuery = true,
+    )
     fun findByOrderByBirthdateAscNative(number: Int): List<NbaPlayer>
 
-    @Query("SELECT TOP (:number) * FROM nba_player WITH(INDEX(birthdate)) ORDER BY birthdate DESC", nativeQuery = true)
+    @Query("""
+        SELECT TOP (:number) np.*, dbo.forced_timeout(2)
+        FROM nba_player np WITH(updlock, rowlock, INDEX(birthdate))
+        ORDER BY np.birthdate DESC
+        """,
+        nativeQuery = true,
+    )
     fun findByOrderByBirthdateDescNative(number: Int): List<NbaPlayer>
 }

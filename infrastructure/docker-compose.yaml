@@ -15,7 +15,7 @@ services:
       - MYSQL_PASSWORD=admin
 
   postgresql:
-    image: postgres
+    image: hint_plan_postgres  # NOTE: generate the missing image from the attached Dockerfile.
     ports:
       - "5432:5432"
     environment:

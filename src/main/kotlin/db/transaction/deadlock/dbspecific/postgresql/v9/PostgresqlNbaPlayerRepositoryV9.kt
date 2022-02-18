@@ -20,6 +20,12 @@ class PostgresqlNbaPlayerRepositoryV9(
         .findByOrderByBirthdateAsc(PageRequest.of(0, number))
 
     fun saveAll(nbaPlayers: Iterable<NbaPlayer>) {
-        postgresqlNbaPlayerJpaRepository.saveAllAndFlush(nbaPlayers)
+        //To increase the likelihood of a potential deadlock we add a delay and flush in between the updates.
+        //Doing this should not cause deadlocks if the solution is sound.
+        nbaPlayers.forEach {
+            sleep(500)
+            log.info("Thread id: ${Thread.currentThread().id}, player name: ${it.name}")
+            postgresqlNbaPlayerJpaRepository.saveAndFlush(it)
+        }
     }
 }

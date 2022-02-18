@@ -19,9 +19,15 @@ interface MysqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     fun findByOrderByBirthdateDesc(pageable: Pageable): List<NbaPlayer>
 
-    @Query("SELECT * FROM nba_player FORCE INDEX (birthdate) ORDER BY birthdate ASC LIMIT :number", nativeQuery = true)
+    @Query(
+        "SELECT np.*, sleep(2) FROM nba_player np FORCE INDEX (birthdate) ORDER BY np.birthdate ASC LIMIT :number for update",
+        nativeQuery = true,
+    )
     fun findByOrderByBirthdateAscNative(number: Int): List<NbaPlayer>
 
-    @Query("SELECT * FROM nba_player FORCE INDEX (birthdate) ORDER BY birthdate DESC LIMIT :number", nativeQuery = true)
+    @Query(
+        "SELECT np.*, sleep(2) FROM nba_player np FORCE INDEX (birthdate) ORDER BY np.birthdate DESC LIMIT :number for update",
+        nativeQuery = true,
+    )
     fun findByOrderByBirthdateDescNative(number: Int): List<NbaPlayer>
 }

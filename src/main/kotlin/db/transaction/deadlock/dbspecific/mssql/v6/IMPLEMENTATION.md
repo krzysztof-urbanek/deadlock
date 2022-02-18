@@ -1,0 +1,1 @@
+6. The effort of slowing down the selects and forcing index usage.

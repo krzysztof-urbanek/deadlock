@@ -1,0 +1,1 @@
+7. Why we get the wrong results? Hibernate caching!
