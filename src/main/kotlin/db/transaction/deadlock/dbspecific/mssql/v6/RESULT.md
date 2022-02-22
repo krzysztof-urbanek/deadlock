@@ -1,3 +1,3 @@
-<h2>6. Slow selects and mandatory indexes make deadlocks surface.<br/><br/></h2>
+<h2>6. Slow selects and mandatory indexes make deadlocks surface  <br/> <span style="color:rgb(99,99,99)">I could have not checked.</span><br/><br/></h2>
 
-<img src="C:\git\deadlock\scenario2.png" height="450"/>
+![](../../../../../../../../../scenario2.png)

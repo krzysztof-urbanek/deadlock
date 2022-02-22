@@ -1,3 +1,5 @@
-<h2>3. Preemptive locking: the `select for update` saves the day.<br/><br/></h2>
+<h2>3. Preemptive locking: the `select for update` saves the day.<br/>
+<span style="color:rgb(99,99,99)">The "wait for your turn" strategy.</span>
+<br/><br/></h2>
 
-<img src="C:\git\deadlock\scenario1b.png" height="450"/>
+![](../../../../../../../../../scenario1b.png)

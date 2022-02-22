@@ -1,4 +1,4 @@
-<h2>1. JpaRepository.findByX() doesn't even share lock by default.<br/><br/></h2>
+<h2>1. JpaRepository.findByX() doesn't even share lock by default<br/><span style="color:rgb(99,99,99)">The Spring Data guys learned Postgres first.</span><br/><br/></h2>
 
 (<b>The same story:</b>)
 

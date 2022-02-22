@@ -1,3 +1,3 @@
-<h2>8. The ugly code that works.<br/><br/></h2>
+<h2>8. The ugly code that works  <br/><span style="color:rgb(99,99,99)">The winner takes it all.</span><br/><br/></h2>
 
-<img src="C:\git\deadlock\scenario2b.png" height="450"/>
+![](../../../../../../../../../scenario2b.png)

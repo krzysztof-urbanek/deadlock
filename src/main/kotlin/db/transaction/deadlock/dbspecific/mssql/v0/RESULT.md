@@ -1,4 +1,4 @@
-<h2>0. The concurrent update problem.<br/><br/></h2>
+<h2>0. The concurrent update problem<br/> <span style="color:rgb(99,99,99)">The reversed "too many cooks spoil the broth" problem.</span><br/><br/></h2>
 
 a) Process (1) <b>reads</b> the record with mentions = 0<br/>
 b) Process (2) <b>reads</b> the record with mentions = 0
