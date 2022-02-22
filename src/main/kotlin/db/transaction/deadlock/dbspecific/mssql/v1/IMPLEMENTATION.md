@@ -1,1 +1,1 @@
-<h2>1. Introducing a transaction <br/> <span style="color:rgb(99,99,99)">Okay, there are worse things than occasional deadlocks.</span></h2>
+<h2>1. Introducing a transaction <br/> <span style="color:rgb(99,99,99)">Okay, there are worse things than an occasional deadlock.</span></h2>

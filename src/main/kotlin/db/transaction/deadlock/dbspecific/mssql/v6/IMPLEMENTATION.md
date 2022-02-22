@@ -1,1 +1,1 @@
-<h2>6. The effort of slowing down the selects and forcing index usage <br/> <span style="color:rgb(99,99,99)">I did it for the sport.</span></h2>
+<h2>6. The effort of slowing down the selects and forcing index usage <br/> <span style="color:rgb(99,99,99)">The power of persistence.</span></h2>

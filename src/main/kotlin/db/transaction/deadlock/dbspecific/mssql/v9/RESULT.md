@@ -1,1 +1,1 @@
-<h2>9. There are no shortcuts <br/> <span style="color:rgb(99,99,99)">Thank you all for your time :)</span></h2>
+<h2>9. There are no shortcuts <br/> <span style="color:rgb(99,99,99)">Thank you for your time :)</span></h2>

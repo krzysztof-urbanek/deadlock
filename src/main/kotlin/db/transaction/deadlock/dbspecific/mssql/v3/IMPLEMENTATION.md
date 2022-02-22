@@ -1,1 +1,1 @@
-<h2>3. Preemptive exclusive locking <br/> <span style="color:rgb(99,99,99)">Better reserve before somebody else takes.</span></h2>
+<h2>3. Preemptive exclusive locking <br/> <span style="color:rgb(99,99,99)">Put a ring on it.</span></h2>

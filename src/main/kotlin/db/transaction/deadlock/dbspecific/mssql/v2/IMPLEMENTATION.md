@@ -1,1 +1,1 @@
-<h2>2. Bring the share lock back <br/> <span style="color:rgb(99,99,99)">There must have been a reason for it.</span></h2>
+<h2>2. Bring share locks back <br/> <span style="color:rgb(99,99,99)">There must have been a reason for them.</span></h2>
