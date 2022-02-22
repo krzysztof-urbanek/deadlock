@@ -1,1 +1,1 @@
-4. Deadlocks as expected.
+<h2>4. Deadlocks, as expected.</h2>

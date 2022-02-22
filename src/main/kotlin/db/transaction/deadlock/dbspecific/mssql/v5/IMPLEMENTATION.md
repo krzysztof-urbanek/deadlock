@@ -1,1 +1,1 @@
-4. Exclusive locking saves the day again?
+<h2>4. Exclusive locking, again.</h2>

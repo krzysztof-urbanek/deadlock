@@ -1,1 +1,1 @@
-4. A new scenario: deadlock verification.
+<h2>4. A new scenario: a deadlock verification.</h2>

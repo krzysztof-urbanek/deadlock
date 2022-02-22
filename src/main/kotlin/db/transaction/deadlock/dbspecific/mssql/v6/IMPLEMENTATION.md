@@ -1,1 +1,1 @@
-6. The effort of slowing down the selects and forcing index usage.
+<h2>6. The effort of slowing down the selects and forcing index usage.</h2>

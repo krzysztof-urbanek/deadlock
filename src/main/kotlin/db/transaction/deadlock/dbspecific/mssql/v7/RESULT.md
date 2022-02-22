@@ -1,1 +1,1 @@
-7. Why we get the wrong results? Hibernate caching!
+<h2>7. Why do we get a wrong result? Hibernate caching!</h2>

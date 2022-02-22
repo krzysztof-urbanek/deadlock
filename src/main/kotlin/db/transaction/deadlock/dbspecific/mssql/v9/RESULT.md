@@ -1,1 +1,1 @@
-9. Serializable isn't the easy answer.
+<h2>9. There are no shortcuts.</h2>
