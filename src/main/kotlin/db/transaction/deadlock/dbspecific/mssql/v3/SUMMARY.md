@@ -2,4 +2,4 @@
 <span style="color:rgb(99,99,99)">No vector hearts this time.</span>
 <br/><br/></h2>
 
-![](../../../../../../../../../scenario1b.png)
+![](../../../../../../../../../graphics/scenario1b.png)
