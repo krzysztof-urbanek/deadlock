@@ -22,6 +22,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.flywaydb:flyway-core")
     implementation("com.vladmihalcea:hibernate-types-52:2.14.0")
+    implementation("io.github.microutils:kotlin-logging:2.1.21")
 
     runtimeOnly("com.microsoft.sqlserver:mssql-jdbc")
     runtimeOnly("org.mariadb.jdbc:mariadb-java-client")

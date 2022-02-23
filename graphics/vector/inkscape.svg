@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="inkscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0998546"
+     inkscape:cx="13.183561"
+     inkscape:cy="135.01785"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path9637" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path9619" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-18"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-9-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-1-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-64" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-4-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-64-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-9-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-4-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-4-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-64-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-9-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-4-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-8-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-0-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-2-9-3-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-6-4-0-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-4-0-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-64-0-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker73727"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path73725" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-19"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-5-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-3-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-5-7-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-3-6-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-1-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-0-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6-45-9-2-1-6-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path9637-54-60-9-7-0-1-9" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cdde87;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.5875;stroke-dashoffset:0"
+       id="rect21331"
+       width="210.63275"
+       height="138.01012"
+       x="-58.21603"
+       y="-4.0170226"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846"
+       width="42.865978"
+       height="14.513895"
+       x="-31.175753"
+       y="63.638687"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8"
+       width="42.865978"
+       height="14.513895"
+       x="-31.175753"
+       y="49.124794"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88"
+       width="42.865978"
+       height="14.513895"
+       x="-31.175753"
+       y="34.610901"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4"
+       width="42.865978"
+       height="14.513895"
+       x="-31.175753"
+       y="78.15258"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-44.74638"
+       y="38.452835"
+       id="text2386-3"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0"
+         style="fill:#808080;stroke-width:0.264583"
+         x="-44.74638"
+         y="38.452835">1.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="33.700424"
+       y="34.921074"
+       id="text2386-3-9"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-8"
+         style="fill:#808080;stroke-width:0.264583"
+         x="33.700424"
+         y="34.921074">2.</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-7"
+       width="42.865978"
+       height="11.56701"
+       x="43.000317"
+       y="79.334526"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-1"
+       width="42.865978"
+       height="36.650738"
+       x="43.000317"
+       y="42.683784"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-6"
+       width="42.865978"
+       height="11.56701"
+       x="43.000332"
+       y="31.116781"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-4"
+       width="42.865978"
+       height="11.56701"
+       x="43.000317"
+       y="90.901527"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="51.679459"
+       y="49.588554"
+       id="text2386-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="51.679459"
+         y="49.588554">S1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.15598"
+       y="60.619125"
+       id="text2386-8-7"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3"
+         style="fill:#000000;stroke-width:0.264583"
+         x="107.15598"
+         y="60.619125">T1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="133.50589"
+       y="60.369232"
+       id="text2386-8-7-9"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-4"
+         style="fill:#000000;stroke-width:0.264583"
+         x="133.50589"
+         y="60.369232">T2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="73.695541"
+       y="49.445618"
+       id="text2386-4-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-6"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="73.695541"
+         y="49.445618">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="51.520454"
+       y="70.180626"
+       id="text2386-4-8-4"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-6-2"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="51.520454"
+         y="70.180626">E2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 59.840516,49.318245 h 8.00305"
+       id="path9614"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-9)"
+       d="m 67.805886,70.97048 h -8.00305"
+       id="path9614-1"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="73.370224"
+       y="70.178894"
+       id="text2386-4-5"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="73.370224"
+         y="70.178894">S2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-26.623186"
+       y="55.992119"
+       id="text2386-8-0"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         id="tspan2384-7-8"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-26.623186"
+         y="55.992119"
+         sodipodi:role="line">S1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-4.5751171"
+       y="56.193901"
+       id="text2386-4-5-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-4.5751171"
+         y="56.193901">S2</tspan></text>
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.574176,54.920608 0.99607,4.943179 -3.81596,-1.471672 2.90494,6.397216 -0.50627,-2.279688 -0.50627,-2.279688 3.67826,1.301896 -2.75077,-6.611243"
+       id="path18309"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.437226,54.843382 0.99607,4.943179 -3.81596,-1.471672 2.90494,6.397216 -1.01254,-4.559376 3.67826,1.301896 -2.75077,-6.611243"
+       id="path18309-8"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.58751;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 11.690224,49.124794 43.000316,42.683785"
+       id="path21123"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.5875;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 11.690225,63.638689 c 7.764022,4.943591 31.310091,15.69584 31.310091,15.69584"
+       id="path21125"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#cdde87;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.5875;stroke-dashoffset:0"
+       id="rect21331-6"
+       width="270.39267"
+       height="116.91318"
+       x="-128.45015"
+       y="180.72929"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100.50505"
+       y="231.54095"
+       id="text2386-8-7-6"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-8"
+         style="fill:#000000;stroke-width:0.264583"
+         x="100.50505"
+         y="231.54095">T1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="126.85497"
+       y="231.29106"
+       id="text2386-8-7-9-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-4-0"
+         style="fill:#000000;stroke-width:0.264583"
+         x="126.85497"
+         y="231.29106">T2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-8)"
+       d="m 103.795,235.12419 c 0,0 2.48892,-4.17511 8.47981,-4.11963 4.91911,0.0455 7.55896,3.38781 7.55896,3.38781 l 1.04114,1.06259"
+       id="path71632-6"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110.31509,228.53629 3.27766,-3.78885 -3.21752,0.0301 3.30773,3.75878 z"
+       id="path72606-3"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-8)"
+       d="m 120.8404,245.65324 c 0,0 -2.48893,4.17511 -8.47981,4.11963 -4.91911,-0.0456 -7.55896,-3.38781 -7.55896,-3.38781 l -1.04114,-1.06259"
+       id="path73449-7"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 114.32031,252.24114 -3.27766,3.78885 3.21752,-0.0301 -3.30773,-3.75878 z"
+       id="path73451-9"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-0"
+       width="42.865978"
+       height="14.513895"
+       x="-104.1559"
+       y="239.18588"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-3"
+       width="42.865978"
+       height="14.513895"
+       x="-104.1559"
+       y="224.67198"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-69"
+       width="42.865978"
+       height="14.513895"
+       x="-104.1559"
+       y="210.1581"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-0"
+       width="42.865978"
+       height="14.513895"
+       x="-104.1559"
+       y="253.69977"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-126.19531"
+       y="205.59846"
+       id="text2386-3-6"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-1"
+         style="fill:#808080;stroke-width:0.264583"
+         x="-126.19531"
+         y="205.59846">1.</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-0-4"
+       width="42.865978"
+       height="14.513895"
+       x="-31.506165"
+       y="239.42647"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-3-7"
+       width="42.865978"
+       height="14.513895"
+       x="-31.506165"
+       y="224.91257"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-69-6"
+       width="42.865978"
+       height="14.513895"
+       x="-31.506165"
+       y="210.39868"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-0-9"
+       width="42.865978"
+       height="14.513895"
+       x="-31.506165"
+       y="253.94037"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-45.629364"
+       y="205.66556"
+       id="text2386-3-6-4"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-1-9"
+         style="fill:#808080;stroke-width:0.264583"
+         x="-45.629364"
+         y="205.66556">2.</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-0-4-3"
+       width="42.865978"
+       height="14.513895"
+       x="41.816933"
+       y="240.3887"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-3-7-1"
+       width="42.865978"
+       height="14.513895"
+       x="41.816933"
+       y="225.8748"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-69-6-7"
+       width="42.865978"
+       height="14.513895"
+       x="41.816933"
+       y="211.36092"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-0-9-0"
+       width="42.865978"
+       height="14.513895"
+       x="41.816933"
+       y="254.90259"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="32.272583"
+       y="206.41977"
+       id="text2386-3-6-4-0"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-1-9-2"
+         style="fill:#808080;stroke-width:0.264583"
+         x="32.272583"
+         y="206.41977">3.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="48.944469"
+       y="211.00914"
+       id="text2386-8-0-3-5-0"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-1"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="48.944469"
+         y="211.00914">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="49.310726"
+       y="224.81509"
+       id="text2386-8-0-3-5-8-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-4-3"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="49.310726"
+         y="224.81509">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="49.146191"
+       y="238.63745"
+       id="text2386-8-0-3-5-8-8-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-4-3-7"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="49.146191"
+         y="238.63745">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.443527"
+       y="252.63644"
+       id="text2386-4-5-2-8-8-9"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-7"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="74.443527"
+         y="252.63644">E2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="73.996902"
+       y="238.62672"
+       id="text2386-4-5-2-8-8-4-0"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-8-1"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="73.996902"
+         y="238.62672">E2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="73.832367"
+       y="224.59161"
+       id="text2386-4-5-2-8-8-4-0-9"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-8-1-3"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="73.832367"
+         y="224.59161">E2</tspan></text>
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 67.456085,233.75251 -4.94318,-0.99607 1.47167,3.81596 -6.39721,-2.90494 4.55937,1.01254 -1.30189,-3.67826 6.61124,2.75077"
+       id="path18309-8-9"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 67.534235,248.22206 -4.94318,-0.99607 1.47167,3.81596 -6.39721,-2.90494 4.55937,1.01254 -1.30189,-3.67826 6.61124,2.75077"
+       id="path18309-8-9-5"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-28.064224"
+       y="210.09296"
+       id="text2386-8-0-3-5-0-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-1-0"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-28.064224"
+         y="210.09296">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-27.69796"
+       y="223.89891"
+       id="text2386-8-0-3-5-8-8-9"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-4-3-72"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-27.69796"
+         y="223.89891">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-2.565155"
+       y="251.72026"
+       id="text2386-4-5-2-8-8-9-1"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-7-6"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-2.565155"
+         y="251.72026">E2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-3.0117798"
+       y="237.71054"
+       id="text2386-4-5-2-8-8-4-0-3"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-8-1-8"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-3.0117798"
+         y="237.71054">E2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-2-8)"
+       d="m -10.907205,213.70844 v 18.92062"
+       id="path9614-6-0-0"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-2-9-3)"
+       d="M -11.014525,264.21787 V 245.29725"
+       id="path9614-6-0-9-9"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-104.36569"
+       y="209.86389"
+       id="text2386-8-0-3-5-0-0"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-1-3"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-104.36569"
+         y="209.86389">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-78.866638"
+       y="251.4912"
+       id="text2386-4-5-2-8-8-9-0"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-7-9"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="-78.866638"
+         y="251.4912">E2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45)"
+       d="m -83.550586,213.46785 v 8.00305"
+       id="path9614-6-67"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-4-0)"
+       d="m -83.657906,263.9773 v -8.00305"
+       id="path9614-6-5-1"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#cdde87;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.5875;stroke-dashoffset:0"
+       id="rect21331-6-8"
+       width="248.74124"
+       height="129.1606"
+       x="195.42319"
+       y="178.32693"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-0-1"
+       width="42.865978"
+       height="14.513895"
+       x="220.19774"
+       y="236.78351"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-3-8"
+       width="42.865978"
+       height="14.513895"
+       x="220.19774"
+       y="222.26962"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-69-7"
+       width="42.865978"
+       height="14.513895"
+       x="220.19774"
+       y="207.75574"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-0-3"
+       width="42.865978"
+       height="14.513895"
+       x="220.19774"
+       y="251.29739"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="219.26241"
+       y="203.31107"
+       id="text2386-3-6-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-1-4"
+         style="fill:#808080;stroke-width:0.264583"
+         x="219.26241"
+         y="203.31107">1.</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-0-4-0"
+       width="42.865978"
+       height="14.513895"
+       x="298.3804"
+       y="237.02411"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-3-7-9"
+       width="42.865978"
+       height="14.513895"
+       x="298.3804"
+       y="222.51019"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-69-6-1"
+       width="42.865978"
+       height="14.513895"
+       x="298.3804"
+       y="207.99631"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-0-9-4"
+       width="42.865978"
+       height="14.513895"
+       x="298.3804"
+       y="251.53799"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="300.83899"
+       y="203.37814"
+       id="text2386-3-6-4-5"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-1-9-27"
+         style="fill:#808080;stroke-width:0.264583"
+         x="300.83899"
+         y="203.37814">2.</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-0-4-3-0"
+       width="42.865978"
+       height="14.513895"
+       x="376.2742"
+       y="237.98633"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-3-7-1-5"
+       width="42.865978"
+       height="14.513895"
+       x="376.2742"
+       y="223.47244"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-69-6-7-5"
+       width="42.865978"
+       height="14.513895"
+       x="376.2742"
+       y="208.95856"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-0-9-0-8"
+       width="42.865978"
+       height="14.513895"
+       x="376.2742"
+       y="252.50021"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="383.54135"
+       y="204.13235"
+       id="text2386-3-6-4-0-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-1-9-2-8"
+         style="fill:#808080;stroke-width:0.264583"
+         x="383.54135"
+         y="204.13235">3.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="400.21323"
+       y="208.72174"
+       id="text2386-8-0-3-5-0-5"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-1-2"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="400.21323"
+         y="208.72174">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="400.5795"
+       y="222.52768"
+       id="text2386-8-0-3-5-8-8-1"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-4-3-3"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="400.5795"
+         y="222.52768">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="400.41495"
+       y="236.35004"
+       id="text2386-8-0-3-5-8-8-2-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-4-3-7-0"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="400.41495"
+         y="236.35004">E1</tspan></text>
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 324.38991,229.93598 -4.94318,-0.99607 1.47167,3.81596 -6.39721,-2.90494 4.55937,1.01254 -1.30189,-3.67826 6.61124,2.75077"
+       id="path18309-8-9-0-9"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="318.40411"
+       y="207.80554"
+       id="text2386-8-0-3-5-0-2-9"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-1-0-5"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="318.40411"
+         y="207.80554">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="318.77036"
+       y="221.61151"
+       id="text2386-8-0-3-5-8-8-9-5"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-4-3-72-3"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="318.77036"
+         y="221.61151">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="343.45654"
+       y="235.42313"
+       id="text2386-4-5-2-8-8-4-0-3-7"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-8-1-8-1"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="343.45654"
+         y="235.42313">E2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="343.42023"
+       y="249.7767"
+       id="text2386-4-5-2-8-8-4-0-3-7-7"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-8-1-8-1-7"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="343.42023"
+         y="249.7767">E2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="343.49445"
+       y="221.27246"
+       id="text2386-4-5-2-8-8-4-0-3-7-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-8-1-8-1-1"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="343.49445"
+         y="221.27246">E2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="236.2916"
+       y="207.57648"
+       id="text2386-8-0-3-5-0-0-4"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-8-9-4-1-3-8"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="236.2916"
+         y="207.57648">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="261.43335"
+       y="221.10336"
+       id="text2386-4-5-2-8-8-9-0-3"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1-8-7-9-5"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="261.43335"
+         y="221.10336">E2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9)"
+       d="m 228.8108,219.57061 v 8.00305"
+       id="path9614-6-67-7"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-4-0-1)"
+       d="m 252.68802,234.33905 v 8.00305"
+       id="path9614-6-5-1-6"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#008080;stroke:#008080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -21.169466,51.239727 V 22.913539"
+       id="path34681"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.40952px;line-height:1.25;font-family:sans-serif;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-35.965214"
+       y="10.050153"
+       id="text38155"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan38153"
+         style="fill:#008080;stroke-width:0.264583"
+         x="-35.965214"
+         y="10.050153">shared lock,</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#008080;stroke-width:0.264583"
+         x="-35.965214"
+         y="15.562054"
+         id="tspan38157">transaction one</tspan></text>
+    <circle
+       style="fill:none;stroke:#008080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path40585"
+       cx="-21.139395"
+       cy="20.718412"
+       r="2.0447779"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#d35f5f;stroke:#d45500;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 53.282006,76.962766 V 105.28895"
+       id="path34681-5"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.40952px;line-height:1.25;font-family:sans-serif;fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="37.081661"
+       y="116.05054"
+       id="text38155-7"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan38153-0"
+         style="fill:#d45500;stroke-width:0.264583"
+         x="37.081661"
+         y="116.05054">exclusive lock,</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#d45500;stroke-width:0.264583"
+         x="37.081661"
+         y="121.56245"
+         id="tspan38157-1">transaction two</tspan></text>
+    <circle
+       style="fill:none;stroke:#d45500;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path40585-5"
+       cx="53.312069"
+       cy="-107.48408"
+       r="2.0447779"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#cdde87;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.264583, 1.5875;stroke-dashoffset:0"
+       id="rect21331-6-6"
+       width="248.74124"
+       height="129.42241"
+       x="197.50146"
+       y="7.457427"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-3"
+       width="42.865978"
+       height="14.513895"
+       x="224.90219"
+       y="76.322533"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-34"
+       width="42.865978"
+       height="14.513895"
+       x="224.90219"
+       y="61.80864"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-4"
+       width="42.865978"
+       height="14.513895"
+       x="224.90219"
+       y="47.294746"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-92"
+       width="42.865978"
+       height="14.513895"
+       x="224.90219"
+       y="90.836426"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="224.20332"
+       y="50.529636"
+       id="text2386-3-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-11"
+         style="fill:#808080;stroke-width:0.264583"
+         x="224.20332"
+         y="50.529636">1.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="242.32652"
+       y="68.068924"
+       id="text2386-8-0-7"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         id="tspan2384-7-8-9"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="242.32652"
+         y="68.068924"
+         sodipodi:role="line">E1</tspan></text>
+    <path
+       style="fill:#008080;stroke:#008080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 234.90849,63.923569 V 35.597381"
+       id="path34681-9"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.40952px;line-height:1.25;font-family:sans-serif;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="220.11273"
+       y="22.733994"
+       id="text38155-2"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan38153-9"
+         style="fill:#008080;stroke-width:0.264583"
+         x="220.11273"
+         y="22.733994">exclusive lock,</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#008080;stroke-width:0.264583"
+         x="220.11273"
+         y="28.245893"
+         id="tspan38157-7">transaction one</tspan></text>
+    <circle
+       style="fill:none;stroke:#008080;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path40585-6"
+       cx="234.93857"
+       cy="33.402252"
+       r="2.0447779"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-00"
+       width="42.865978"
+       height="14.513895"
+       x="380.98645"
+       y="76.460419"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-1-7"
+       width="42.865978"
+       height="14.513895"
+       x="380.98645"
+       y="61.946522"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-5"
+       width="42.865978"
+       height="14.513895"
+       x="380.98645"
+       y="47.432629"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-08"
+       width="42.865978"
+       height="14.513895"
+       x="380.98645"
+       y="90.974312"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="388.13318"
+       y="50.660919"
+       id="text2386-3-9-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-7"
+         style="fill:#808080;stroke-width:0.264583"
+         x="388.13318"
+         y="50.660919">3.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="430.62692"
+       y="68.644928"
+       id="text2386-4-5-2-2"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-9"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="430.62692"
+         y="68.644928">E2</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-7-0"
+       width="42.865978"
+       height="14.513895"
+       x="302.22876"
+       y="76.460411"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-8-5"
+       width="42.865978"
+       height="14.513895"
+       x="302.22876"
+       y="61.946522"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-88-6-9"
+       width="42.865978"
+       height="14.513895"
+       x="302.22876"
+       y="47.432629"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect846-4-9"
+       width="42.865978"
+       height="14.513895"
+       x="302.22876"
+       y="90.974304"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="305.41672"
+       y="50.660919"
+       id="text2386-3-5"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-0-4"
+         style="fill:#808080;stroke-width:0.264583"
+         x="305.41672"
+         y="50.660919">2.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="323.53989"
+       y="68.200203"
+       id="text2386-8-0-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         id="tspan2384-7-8-2"
+         style="fill:#0000ff;stroke-width:0.264583"
+         x="323.53989"
+         y="68.200203"
+         sodipodi:role="line">E1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="347.91046"
+       y="68.644928"
+       id="text2386-4-5-2-8"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-9-0-9-1"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="347.91046"
+         y="68.644928">E2</tspan></text>
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 318.66228,69.334172 4.94318,0.99607 -1.47167,-3.81596 6.39721,2.90494 -4.55937,-1.01254 1.30189,3.67826 -6.61124,-2.75077"
+       id="path18309-8-0-1"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.40952px;line-height:1.25;font-family:sans-serif;fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="320.20029"
+       y="22.528055"
+       id="text38155-7-2"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan38153-0-9"
+         style="fill:#d45500;stroke-width:0.264583"
+         x="320.20029"
+         y="22.528055">exclusive lock,</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#d45500;stroke-width:0.264583"
+         x="320.20029"
+         y="28.039957"
+         id="tspan38157-1-8">transaction two</tspan></text>
+    <g
+       id="g66031"
+       transform="matrix(1,0,0,-1,14.674288,79.563262)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:#d35f5f;stroke:#d45500;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 320.76409,15.194475 V 43.520658"
+         id="path34681-5-9"
+         inkscape:export-filename="C:\git\deadlock\scenario1.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:none;stroke:#d45500;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path40585-5-4"
+         cx="320.79416"
+         cy="-45.715786"
+         r="2.0447779"
+         transform="scale(1,-1)"
+         inkscape:export-filename="C:\git\deadlock\scenario1.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2)"
+       d="m 307.37267,219.76352 v 6.21061"
+       id="path9614-6-67-7-6"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-19)"
+       d="m 50.686065,237.7551 v 6.21061"
+       id="path9614-6-67-7-6-85"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-5)"
+       d="m 74.670595,243.12636 v -6.21061"
+       id="path9614-6-67-7-6-2"
+       inkscape:export-filename="C:\git\deadlock\scenario2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-5-7)"
+       d="M 329.33687,121.29542 H 316.78354"
+       id="path9614-6-67-7-6-2-7"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-1)"
+       d="m 331.27111,234.18292 v 6.21061"
+       id="path9614-6-67-7-6-8"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-1-6)"
+       d="m 385.3639,220.82983 v 6.21061"
+       id="path9614-6-67-7-6-8-6"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-1-6-0)"
+       d="m 385.44894,235.4587 v 6.21061"
+       id="path9614-6-67-7-6-8-6-1"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-0)"
+       d="m 331.52627,249.23705 v 6.21061"
+       id="path9614-6-67-7-6-5"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 110.12762,55.610967 c 0,0 2.48893,-4.175101 8.47981,-4.119626 4.91911,0.04555 7.55896,3.387807 7.55896,3.387807 l 1.04114,1.062592"
+       id="path71632"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 116.64771,49.023076 3.27766,-3.788853 -3.21752,0.03007 3.30773,3.758783 z"
+       id="path72606"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 127.17303,66.140023 c 0,0 -2.48892,4.175101 -8.47981,4.119625 -4.91911,-0.04555 -7.55896,-3.387806 -7.55896,-3.387806 l -1.04114,-1.062592"
+       id="path73449"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 120.65294,72.727914 -3.27766,3.788853 3.21752,-0.03007 -3.30773,-3.758783 z"
+       id="path73451"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="321.69223"
+       y="118.18822"
+       id="text2386-8-7-6-5"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-8-0"
+         style="fill:#000000;stroke-width:0.264583"
+         x="321.69223"
+         y="118.18822">T1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="348.04214"
+       y="117.93832"
+       id="text2386-8-7-9-8-3"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-4-0-9"
+         style="fill:#000000;stroke-width:0.264583"
+         x="348.04214"
+         y="117.93832">T2</tspan></text>
+    <path
+       style="fill:#00ff00;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 322.28998,118.50947 3.27766,-3.78885 -3.21752,0.0301 3.30773,3.75878 z"
+       id="path72606-3-0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario1b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6-45-9-2-5-7-0)"
+       d="m 312.54111,285.56008 h 12.55333"
+       id="path9614-6-67-7-6-2-7-2"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="317.60559"
+       y="274.59128"
+       id="text2386-8-7-6-5-3"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-8-0-7"
+         style="fill:#000000;stroke-width:0.264583"
+         x="317.60559"
+         y="274.59128">T1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.06721px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="343.95551"
+       y="274.34137"
+       id="text2386-8-7-9-8-3-7"
+       transform="scale(0.95214065,1.050265)"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2384-7-3-4-0-9-3"
+         style="fill:#000000;stroke-width:0.264583"
+         x="343.95551"
+         y="274.34137">T2</tspan></text>
+    <path
+       style="fill:#00ff00;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 316.47442,282.83427 3.27766,-3.78885 -3.21752,0.0301 3.30773,3.75878 z"
+       id="path72606-3-0-3"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\git\deadlock\scenario2b.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -5.6559277,-29.342783 v 9.270618 l -3.8698453,-1.956185 -2.041237,-4.380155 0.382732,-3.189432 1.7860823,-1.063146 2.4664948,0.29768 z"
+       id="path76087" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 11.573775,-30.422191 v 9.323776 c 1.291464,-0.465297 2.380784,-1.20579 3.295747,-2.13692 1.120682,-1.157058 2.361354,-2.661915 2.615335,-4.252577 0.168831,-1.057377 0.201079,-2.291815 -0.382732,-3.189432 -0.377759,-0.580809 -1.108223,-0.919798 -1.786082,-1.063146 -0.810213,-0.171337 -1.702908,-0.02284 -2.466495,0.29768 -0.50215,0.210783 -1.275773,1.020619 -1.275773,1.020619 z"
+       id="path76087-66"
+       sodipodi:nodetypes="cccssssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 11.573775,-30.422191 v 9.323776 c -1.291464,-0.465297 -2.3807836,-1.20579 -3.2957466,-2.13692 -1.1206816,-1.157058 -2.3613536,-2.661915 -2.6153346,-4.252577 -0.168831,-1.057377 -0.201079,-2.291815 0.382732,-3.189432 0.377759,-0.580809 1.108223,-0.919798 1.786082,-1.063146 0.8102126,-0.171337 1.7029072,-0.02284 2.4664942,0.29768 0.50215,0.210783 1.275773,1.020619 1.275773,1.020619 z"
+       id="path76087-66-6"
+       sodipodi:nodetypes="cccssssc" />
+    <path
+       id="path76087-66-60"
+       style="fill:none;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 128.46484 -124.82227 C 127.47142 -124.83895 126.48429 -124.7551 125.52734 -124.55273 C 122.96536 -124.01095 120.20509 -122.73034 118.77734 -120.53516 C 116.57081 -117.14259 116.69198 -112.47685 117.33008 -108.48047 C 118.29001 -102.46852 122.9792 -96.781336 127.21484 -92.408203 C 130.67297 -88.888972 134.79075 -86.088681 139.67188 -84.330078 C 144.553 -86.088681 148.67078 -88.888972 152.12891 -92.408203 C 156.36455 -96.781336 161.05374 -102.46852 162.01367 -108.48047 C 162.65177 -112.47685 162.77294 -117.14259 160.56641 -120.53516 C 159.13866 -122.73034 156.37839 -124.01095 153.81641 -124.55273 C 150.75418 -125.20031 147.38014 -124.63915 144.49414 -123.42773 C 142.59625 -122.63107 139.67188 -119.57031 139.67188 -119.57031 C 139.67188 -119.57031 136.7475 -122.63107 134.84961 -123.42773 C 132.86549 -124.26058 130.65038 -124.78556 128.46484 -124.82227 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path76087-66-60-8"
+       style="fill:#ffaaaa;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -12.71299,52.687889 c -0.177249,-0.003 -0.353376,0.01197 -0.524118,0.04804 -0.457117,0.09654 -0.949613,0.324733 -1.204358,0.715894 -0.393695,0.604525 -0.372076,1.435918 -0.258224,2.148037 0.171274,1.071274 1.007934,2.084679 1.763671,2.863932 0.617011,0.627095 1.351717,1.126081 2.222625,1.439449 0.8709052,-0.313368 1.6056128,-0.812354 2.2226235,-1.439449 0.7557366,-0.779253 1.5923971,-1.792658 1.7636709,-2.863932 0.1138518,-0.712119 0.1354714,-1.543512 -0.2582248,-2.148037 -0.2547438,-0.391161 -0.7472401,-0.619354 -1.2043568,-0.715894 -0.546373,-0.115393 -1.1483801,-0.01539 -1.6633096,0.200464 -0.3386282,0.141958 -0.8604032,0.687357 -0.8604032,0.687357 0,0 -0.521777,-0.545399 -0.860405,-0.687357 -0.354013,-0.148406 -0.74924,-0.241953 -1.139191,-0.248494 z"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path76087-66-2"
+       style="fill:none;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 32.511719 -189.77148 C 31.518292 -189.78817 30.531163 -189.70237 29.574219 -189.5 C 27.012232 -188.95821 24.251969 -187.67761 22.824219 -185.48242 C 20.617689 -182.08985 20.738852 -177.42412 21.376953 -173.42773 C 22.336881 -167.41578 24.856148 -161.24618 29.091797 -156.87305 C 30.992132 -154.91103 35.264128 -152.82122 37.830078 -151.70508 C 39.694561 -150.89406 43.71875 -149.2793 43.71875 -149.2793 C 43.71875 -149.2793 47.740986 -150.89406 49.605469 -151.70508 C 52.17142 -152.82122 56.443415 -154.91103 58.34375 -156.87305 C 62.579399 -161.24618 65.098666 -167.41578 66.058594 -173.42773 C 66.696695 -177.42412 66.819811 -182.08985 64.613281 -185.48242 C 63.185531 -187.67761 60.423315 -188.95821 57.861328 -189.5 C 54.799106 -190.14757 51.425061 -189.58641 48.539062 -188.375 C 46.641173 -187.57834 43.71875 -184.51758 43.71875 -184.51758 C 43.71875 -184.51758 40.794374 -187.57834 38.896484 -188.375 C 36.912361 -189.20785 34.697257 -189.73478 32.511719 -189.77148 z "
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 43.000474,-33.167498 -6.795879,4.660891 2.285339,1.653864 -8.960937,5.202155 10.915507,7.006371 11.426698,-11.607121 z"
+       id="path78409"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       id="path76087-66-60-9"
+       style="fill:none;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 321.41992 -122.04688 L 299.74609 -107.18359 L 308.38477 -100.93359 L 291.09961 -90.898438 C 294.35033 -87.826117 298.15053 -85.368093 302.58203 -83.771484 C 307.46315 -85.530087 311.58093 -88.330378 315.03906 -91.849609 C 319.2747 -96.222742 323.9639 -101.90992 324.92383 -107.92188 C 325.56193 -111.91825 325.68309 -116.58399 323.47656 -119.97656 C 322.94808 -120.7891 322.2359 -121.47603 321.41992 -122.04688 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path76087-66-60-0"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75.859776,-33.058814 c -0.262842,-0.0044 -0.52402,0.01777 -0.777213,0.07131 -0.677858,0.143346 -1.408179,0.482176 -1.785938,1.062984 -0.583811,0.897618 -0.551751,2.132095 -0.382923,3.189471 0.253984,1.590661 1.494665,3.095394 2.615345,4.252454 0.08432,0.08581 0.170558,0.169667 0.257865,0.25218 l 4.573366,-2.655136 -2.285651,-1.654162 5.734534,-3.932576 c -0.367369,-0.256998 -0.814843,-0.424929 -1.241785,-0.515215 -0.810215,-0.171339 -1.70293,-0.02286 -2.466514,0.297656 -0.50215,0.210783 -1.275893,1.020612 -1.275893,1.020612 0,0 -0.773739,-0.809829 -1.275889,-1.020612 -0.524965,-0.220356 -1.111046,-0.359257 -1.689304,-0.368969 z" />
+    <path
+       id="path76087-66-60-9-8"
+       style="fill:#ffaaaa;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 67.767225,57.591404 -3.846279,2.632051 1.533036,1.106776 -3.067459,1.777066 c 0.576879,0.544059 1.251271,0.979336 2.037693,1.26207 0.866214,-0.311421 1.596963,-0.807308 2.21065,-1.430507 0.751664,-0.774413 1.583819,-1.781521 1.75417,-2.846144 0.113239,-0.707694 0.134739,-1.533921 -0.256836,-2.134692 -0.09379,-0.143888 -0.22017,-0.265532 -0.364975,-0.36662 z"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path76087-66-60-0-5"
+       style="fill:#ffaaaa;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 61.608266,57.077892 c -0.176294,-0.0029 -0.351472,0.0119 -0.521294,0.04773 -0.454654,0.09594 -0.944497,0.322717 -1.197869,0.711449 -0.391575,0.600771 -0.370072,1.426998 -0.256835,2.134694 0.170353,1.064621 1.002506,2.071729 1.75417,2.846143 0.05656,0.05743 0.114398,0.113557 0.172957,0.168782 l 3.067458,-1.777067 -1.533037,-1.107121 3.84628,-2.63205 c -0.246402,-0.172007 -0.546533,-0.284402 -0.832893,-0.34483 -0.543429,-0.114676 -1.142193,-0.0153 -1.654346,0.199219 -0.336803,0.141076 -0.85577,0.68309 -0.85577,0.68309 0,0 -0.518964,-0.542014 -0.855767,-0.68309 -0.352106,-0.147482 -0.745203,-0.240448 -1.133054,-0.246949 z"
+       inkscape:export-filename="C:\git\deadlock\scenario1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>

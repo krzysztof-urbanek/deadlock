@@ -31,6 +31,7 @@ class FlywayConfig(
         Flyway.configure()
             .dataSource(mssqlDataSource)
             .locations("db/specific/mssql")
+            .mixed(true)
             .load()
             .migrate()
 

@@ -1,9 +1,9 @@
 package db.transaction.deadlock
 
+import db.transaction.deadlock.dbspecific.mssql.MssqlTcpPortJpaRepository
+import db.transaction.deadlock.dbspecific.mysql.MysqlTcpPortJpaRepository
+import db.transaction.deadlock.dbspecific.postgresql.PostgresqlTcpPortJpaRepository
 import db.transaction.deadlock.model.TcpPort
-import db.transaction.deadlock.repository.mssql.MssqlTcpPortJpaRepository
-import db.transaction.deadlock.repository.mysql.MysqlTcpPortJpaRepository
-import db.transaction.deadlock.repository.postgresql.PostgresqlTcpPortJpaRepository
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
