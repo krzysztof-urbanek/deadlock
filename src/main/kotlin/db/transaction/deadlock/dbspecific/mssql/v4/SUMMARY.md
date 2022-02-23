@@ -1,1 +1,1 @@
-<h2>4. Deadlocks, as expected <br/> <span style="color:rgb(99,99,99)">Wait... we didn't even share lock this time.</span></h2>
+<h2>4. Deadlocks, again <br/> <span style="color:rgb(99,99,99)">Ok, it broke.</span></h2>
