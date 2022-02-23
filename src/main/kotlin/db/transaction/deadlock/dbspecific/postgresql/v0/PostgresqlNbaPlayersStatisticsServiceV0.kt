@@ -3,7 +3,6 @@ package db.transaction.deadlock.dbspecific.postgresql.v0
 import db.transaction.deadlock.service.NbaPlayersStatisticsServiceV0
 import db.transaction.deadlock.service.NbaPublisher
 import org.springframework.stereotype.Service
-import org.springframework.transaction.annotation.Transactional
 
 
 @Service

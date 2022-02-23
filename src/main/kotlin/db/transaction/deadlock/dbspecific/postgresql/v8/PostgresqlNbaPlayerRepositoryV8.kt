@@ -1,9 +1,7 @@
 package db.transaction.deadlock.dbspecific.postgresql.v8
 
-import db.transaction.deadlock.dbspecific.postgresql.v7.PostgresqlNbaPlayerJpaRepositoryV7
 import db.transaction.deadlock.model.NbaPlayer
 import mu.KotlinLogging.logger
-import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Repository
 import java.lang.Thread.sleep
 

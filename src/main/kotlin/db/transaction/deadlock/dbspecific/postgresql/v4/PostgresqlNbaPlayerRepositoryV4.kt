@@ -4,7 +4,6 @@ import db.transaction.deadlock.model.NbaPlayer
 import mu.KotlinLogging.logger
 import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Repository
-import org.springframework.transaction.annotation.Transactional
 import java.lang.Thread.sleep
 
 

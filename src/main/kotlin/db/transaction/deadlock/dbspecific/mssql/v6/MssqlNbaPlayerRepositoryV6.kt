@@ -2,7 +2,6 @@ package db.transaction.deadlock.dbspecific.mssql.v6
 
 import db.transaction.deadlock.model.NbaPlayer
 import mu.KotlinLogging.logger
-import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Repository
 import java.lang.Thread.sleep
 

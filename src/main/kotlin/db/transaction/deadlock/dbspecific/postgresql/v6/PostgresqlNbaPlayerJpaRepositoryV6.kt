@@ -1,13 +1,8 @@
 package db.transaction.deadlock.dbspecific.postgresql.v6
 
 import db.transaction.deadlock.model.NbaPlayer
-import org.springframework.data.domain.Pageable
-import org.springframework.data.jpa.repository.*
-import org.springframework.transaction.annotation.Isolation
-import org.springframework.transaction.annotation.Propagation
-import org.springframework.transaction.annotation.Transactional
-import javax.persistence.LockModeType
-import javax.persistence.QueryHint
+import org.springframework.data.jpa.repository.JpaRepository
+import org.springframework.data.jpa.repository.Query
 
 
 interface PostgresqlNbaPlayerJpaRepositoryV6: JpaRepository<NbaPlayer, Long> {
