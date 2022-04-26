@@ -16,7 +16,7 @@ class PostgresqlNbaPlayerRepositoryV8(
         .findOrdinalIdByOrderByBirthdateDesc(number)
         .sortedBy { it }
         .map {
-            //To increase the likelihood of potential deadlock we add a delay in between row selection
+            //To increase the likelihood of potential deadlock we add a delay in between row selections
             sleep(500)
             postgresqlNbaPlayerJpaRepository.findByOrdinalId(it)
         }
@@ -25,7 +25,7 @@ class PostgresqlNbaPlayerRepositoryV8(
         .findOrdinalIdByOrderByBirthdateAsc(number)
         .sortedBy { it }
         .map {
-            //To increase the likelihood of potential deadlock we add a delay in between row selection
+            //To increase the likelihood of potential deadlock we add a delay in between row selections
             sleep(500)
             postgresqlNbaPlayerJpaRepository.findByOrdinalId(it)
         }

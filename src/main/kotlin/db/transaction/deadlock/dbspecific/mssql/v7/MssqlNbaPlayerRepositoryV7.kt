@@ -17,7 +17,7 @@ class MssqlNbaPlayerRepositoryV7(
         .findByOrderByBirthdateDesc(PageRequest.of(0, number))
         .sortedBy { it.ordinalId }
         .map {
-            //To increase the likelihood of potential deadlock we add a delay in between row selection
+            //To increase the likelihood of potential deadlock we add a delay in between row selections
             sleep(500)
             mssqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
@@ -26,7 +26,7 @@ class MssqlNbaPlayerRepositoryV7(
         .findByOrderByBirthdateAsc(PageRequest.of(0, number))
         .sortedBy { it.ordinalId }
         .map {
-            //To increase the likelihood of potential deadlock we add a delay in between row selection
+            //To increase the likelihood of potential deadlock we add a delay in between row selections
             sleep(500)
             mssqlNbaPlayerJpaRepository.findByOrdinalId(it.ordinalId!!)
         }
